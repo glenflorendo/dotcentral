@@ -1,0 +1,6 @@
+{{- $gitEmail := onepasswordRead "op://Private/Dotfiles/git_email" -}}
+{{- $gitKeyItemID := onepasswordRead "op://Private/Dotfiles/Related Items/GitHub Personal Authentication and Signing Key" -}}
+{{- $gitKeyRef := printf "op://Private/%s/public_key" $gitKeyItemID -}}
+{{- $gitSigningKey := onepasswordRead $gitKeyRef -}}
+
+{{ $gitEmail }} {{ $gitSigningKey }}
