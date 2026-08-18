@@ -1,0 +1,1111 @@
+{
+  "appVersion" : "1.0",
+  "createdAt" : "2026-08-30T09:53:48Z",
+  "id" : "67EEDBC6-6A2A-4CF5-A0B2-ED66B6AFB95A",
+  "kind" : "manual",
+  "name" : "Export @ 8\/30\/26, 2:53 AM",
+  "notes" : "Captured for profile export",
+  "osVersion" : "macOS 26.5.2",
+  "settingRecords" : [
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "finder.showHiddenFiles"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "global.showAllExtensions"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "finder.showPathBar"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "finder.showStatusBar"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "finder.keepFoldersOnTopInWindow"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "finder.keepFoldersOnTopOnDesktop"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "string",
+        "value" : "PfHm"
+      },
+      "keyExistence" : "exists",
+      "settingID" : "finder.newWindowTarget"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : false
+      },
+      "keyExistence" : "exists",
+      "settingID" : "finder.showPosixPathInTitle"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "finder.showLibraryFolder"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "finder.warnOnEmptyTrash"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "finder.disableExtensionChangeWarning"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "global.saveToLocalDisk"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "finder.quitMenuItem"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "desktopservices.dontWriteNetworkDS"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "desktopservices.dontWriteUSBDS"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "double",
+        "value" : 0.25
+      },
+      "keyExistence" : "exists",
+      "settingID" : "finder.springLoadingDelay"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "finder.defaultSearchScope"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "finder.columnAutoSizing"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "finder.createDesktop"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "finder.autoRemoveOldTrash"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "finder.showExternalDrives"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : false
+      },
+      "keyExistence" : "exists",
+      "settingID" : "finder.showInternalDrives"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "finder.showServers"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "finder.showRemovableMedia"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "finder.openFoldersInTabs"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "global.toolbarTitleRolloverDelay"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "int",
+        "value" : 64
+      },
+      "keyExistence" : "exists",
+      "settingID" : "dock.tileSize"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "string",
+        "value" : "bottom"
+      },
+      "keyExistence" : "exists",
+      "settingID" : "dock.orientation"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "double",
+        "value" : 0.10000000149011612
+      },
+      "keyExistence" : "exists",
+      "settingID" : "dock.autohideDelay"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "double",
+        "value" : 0.25
+      },
+      "keyExistence" : "exists",
+      "settingID" : "dock.autohideAnimationSpeed"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : false
+      },
+      "keyExistence" : "exists",
+      "settingID" : "dock.showRecents"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "string",
+        "value" : "scale"
+      },
+      "keyExistence" : "exists",
+      "settingID" : "dock.mineffect"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "dock.minimizeToApplication"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "string",
+        "value" : "WhenScrolling"
+      },
+      "keyExistence" : "exists",
+      "settingID" : "global.showScrollBars"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "string",
+        "value" : "None"
+      },
+      "keyExistence" : "exists",
+      "settingID" : "global.titleBarDoubleClick"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "global.savePanelExpanded"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "global.printPanelExpanded"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "dock.staticOnly"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : false
+      },
+      "keyExistence" : "exists",
+      "settingID" : "dock.magnification"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "int",
+        "value" : 16
+      },
+      "keyExistence" : "exists",
+      "settingID" : "dock.largeSize"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "dock.launchAnimation"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "dock.showProcessIndicators"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "dock.showHidden"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "dock.springLoadAll"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "dock.appSwitcherAllDisplays"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "dock.scrollToOpen"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "textEdit.plainTextDefault"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "helpViewer.devMode"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "global.appNap"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "global.windowTabbingMode"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "global.dragWindowFromAnywhere"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "int",
+        "value" : 1
+      },
+      "keyExistence" : "exists",
+      "settingID" : "global.sidebarIconSize"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "global.scrollbarClickBehavior"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "global.preventAutoTermination"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "int",
+        "value" : 13
+      },
+      "keyExistence" : "exists",
+      "settingID" : "dock.hotCornerTopLeft"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "int",
+        "value" : 12
+      },
+      "keyExistence" : "exists",
+      "settingID" : "dock.hotCornerTopRight"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "int",
+        "value" : 2
+      },
+      "keyExistence" : "exists",
+      "settingID" : "dock.hotCornerBottomLeft"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "int",
+        "value" : 4
+      },
+      "keyExistence" : "exists",
+      "settingID" : "dock.hotCornerBottomRight"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "global.pressAndHoldEnabled"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "global.keyRepeat"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "global.initialKeyRepeat"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "global.smartQuotes"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "global.smartDashes"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "global.autoCapitalization"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "global.autoSpellingCorrection"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "global.periodSubstitution"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "int",
+        "value" : 3
+      },
+      "keyExistence" : "exists",
+      "settingID" : "global.fullKeyboardAccess"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "mouse.acceleration"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "global.autoFillHeuristic"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "global.inlinePrediction"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "int",
+        "value" : 0
+      },
+      "keyExistence" : "exists",
+      "settingID" : "keyboard.fnKeyAction"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "keyboard.fnKeysStandard"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "keyboard.languageIndicator"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "trackpad.tapToClick"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : false
+      },
+      "keyExistence" : "exists",
+      "settingID" : "trackpad.threeFingerDrag"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : false
+      },
+      "keyExistence" : "exists",
+      "settingID" : "trackpad.forceClick"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "trackpad.silentClicking"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "int",
+        "value" : 0
+      },
+      "keyExistence" : "exists",
+      "settingID" : "trackpad.clickPressure"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "int",
+        "value" : 0
+      },
+      "keyExistence" : "exists",
+      "settingID" : "trackpad.forceClickPressure"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "trackpad.trackingSpeed"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "dock.mruSpaces"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "dock.exposeGroupApps"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "double",
+        "value" : 0.15000000596046448
+      },
+      "keyExistence" : "exists",
+      "settingID" : "dock.exposeAnimationDuration"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "double",
+        "value" : 0.30000001192092896
+      },
+      "keyExistence" : "exists",
+      "settingID" : "windowManager.animationSpeed"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "windowManager.stageManager"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : false
+      },
+      "keyExistence" : "exists",
+      "settingID" : "windowManager.autoHideStrip"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : false
+      },
+      "keyExistence" : "exists",
+      "settingID" : "windowManager.clickToShowDesktop"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "windowManager.tilingByEdgeDrag"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "windowManager.tilingOptionKey"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "windowManager.topEdgeTiling"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : false
+      },
+      "keyExistence" : "exists",
+      "settingID" : "windowManager.tiledWindowMargins"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "windowManager.hideDesktopItems"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : false
+      },
+      "keyExistence" : "exists",
+      "settingID" : "windowManager.hideDesktopIcons"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "global.switchSpaceOnActivate"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "screencapture.location"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "string",
+        "value" : "png"
+      },
+      "keyExistence" : "exists",
+      "settingID" : "screencapture.format"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "screencapture.disableShadow"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "screencapture.name"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "screencapture.includeDate"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "screencapture.rememberSelection"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "xcode.showBuildDuration"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "terminal.focusFollowsMouse"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : false
+      },
+      "keyExistence" : "exists",
+      "settingID" : "accessibility.increaseContrast"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : false
+      },
+      "keyExistence" : "exists",
+      "settingID" : "accessibility.reduceMotion"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "display.fontSmoothing"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "global.disableSolarium"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "global.menuActionImages"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "menu.clock24Hour"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "menu.clockFlashDateSeparators"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "int",
+        "value" : 1
+      },
+      "keyExistence" : "exists",
+      "settingID" : "menu.clockShowDate"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "menu.clockShowAMPM"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : false
+      },
+      "keyExistence" : "exists",
+      "settingID" : "menu.clockShowSeconds"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "menu.clockShowDayOfWeek"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : false
+      },
+      "keyExistence" : "exists",
+      "settingID" : "menu.clockAnalog"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : false
+      },
+      "keyExistence" : "exists",
+      "settingID" : "menu.autoHideMenuBar"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "menu.statusItemSpacing"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "menu.statusItemPadding"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "menu.ccBluetooth"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "menu.ccSound"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "menu.ccNowPlaying"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "menu.ccFocusModes"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "menu.ccDisplay"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "launchServices.quarantine"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "crashReporter.dialogType"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "screensaver.askForPassword"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "int",
+        "value" : 0
+      },
+      "keyExistence" : "exists",
+      "settingID" : "screensaver.askForPasswordDelay"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "loginwindow.text"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "appleIntelligence.enabled"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "int",
+        "value" : 0
+      },
+      "keyExistence" : "exists",
+      "settingID" : "activityMonitor.iconType"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "int",
+        "value" : 102
+      },
+      "keyExistence" : "exists",
+      "settingID" : "activityMonitor.showCategory"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "activityMonitor.updatePeriod"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "global.keepWindowsOnQuit"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : false
+      },
+      "keyExistence" : "exists",
+      "settingID" : "global.closeConfirmsChanges"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "music.songNotifications"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "timeMachine.dontOfferNewDisks"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "network.firewallEnabled"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "network.firewallStealth"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : false
+      },
+      "keyExistence" : "exists",
+      "settingID" : "network.firewallBlockAll"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "network.captivePortal"
+    },
+    {
+      "captureStatus" : "captured",
+      "keyExistence" : "absent",
+      "settingID" : "network.disableAirDrop"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "network.remoteLogin"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "bool",
+        "value" : true
+      },
+      "keyExistence" : "exists",
+      "settingID" : "network.ipv6Wi-Fi"
+    },
+    {
+      "captureStatus" : "captured",
+      "capturedValue" : {
+        "type" : "string",
+        "value" : "c2:a7:db:45:28:23"
+      },
+      "keyExistence" : "exists",
+      "settingID" : "network.macAddressEthernet"
+    }
+  ],
+  "trigger" : "manualCapture"
+}

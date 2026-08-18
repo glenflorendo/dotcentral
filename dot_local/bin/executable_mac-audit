@@ -1,0 +1,184 @@
+#!/bin/bash
+
+set -u
+
+CHECK_NETWORK=false
+
+usage() {
+  cat <<'EOF'
+Usage: mac-audit [--network]
+
+Run non-destructive checks for this Mac's dotfiles and security baseline.
+Use --network to also check GitHub SSH access and pending macOS updates.
+EOF
+}
+
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    --network)
+      CHECK_NETWORK=true
+      ;;
+    -h|--help)
+      usage
+      exit 0
+      ;;
+    *)
+      echo "Unknown option: $1" >&2
+      usage >&2
+      exit 2
+      ;;
+  esac
+  shift
+done
+
+PASS_COUNT=0
+WARN_COUNT=0
+FAIL_COUNT=0
+
+pass() {
+  printf 'PASS  %s\n' "$1"
+  PASS_COUNT=$((PASS_COUNT + 1))
+}
+
+warn() {
+  printf 'WARN  %s\n' "$1"
+  WARN_COUNT=$((WARN_COUNT + 1))
+}
+
+fail() {
+  printf 'FAIL  %s\n' "$1"
+  FAIL_COUNT=$((FAIL_COUNT + 1))
+}
+
+heading() {
+  printf '\n%s\n' "$1"
+  printf '%s\n' '────────────────────────────────────────'
+}
+
+heading "Dotfiles"
+
+if command -v chezmoi >/dev/null 2>&1; then
+  pass "chezmoi is installed"
+
+  if [[ -d "$(chezmoi source-path 2>/dev/null)/.git" ]]; then
+    pass "chezmoi source is a Git repository"
+  else
+    fail "chezmoi source repository is unavailable"
+  fi
+
+  if [[ -z "$(chezmoi diff --no-pager 2>/dev/null)" ]]; then
+    pass "chezmoi-managed files match their source state"
+  else
+    warn "chezmoi has unapplied or locally modified files (run: chezmoi diff)"
+  fi
+else
+  fail "chezmoi is not installed"
+fi
+
+heading "Packages"
+
+if command -v brew >/dev/null 2>&1; then
+  pass "Homebrew is installed"
+
+  if command -v chezmoi >/dev/null 2>&1; then
+    BREWFILE="$(chezmoi source-path 2>/dev/null)/Brewfile"
+    if [[ -f "$BREWFILE" ]]; then
+      if brew bundle check --file="$BREWFILE" >/dev/null 2>&1; then
+        pass "Brewfile dependencies are installed"
+      else
+        warn "some Brewfile dependencies are missing (run: brew bundle --file=\"$BREWFILE\")"
+      fi
+    else
+      warn "Brewfile was not found in the chezmoi source"
+    fi
+  fi
+else
+  fail "Homebrew is not installed"
+fi
+
+heading "Identity and access"
+
+if command -v op >/dev/null 2>&1; then
+  if op whoami >/dev/null 2>&1; then
+    pass "1Password CLI is authenticated"
+  else
+    warn "1Password CLI is not authenticated"
+  fi
+else
+  fail "1Password CLI is not installed"
+fi
+
+if $CHECK_NETWORK; then
+  SSH_OUTPUT="$(ssh -o BatchMode=yes -o ConnectTimeout=10 -T git@github.com 2>&1 || true)"
+  if [[ "$SSH_OUTPUT" == *"successfully authenticated"* ]]; then
+    pass "GitHub SSH authentication succeeded"
+  else
+    warn "GitHub SSH authentication failed"
+  fi
+else
+  warn "GitHub SSH check skipped (run: mac-audit --network)"
+fi
+
+heading "Security"
+
+if command -v fdesetup >/dev/null 2>&1; then
+  FILEVAULT_STATUS="$(fdesetup status 2>/dev/null || true)"
+  if [[ "$FILEVAULT_STATUS" == *"FileVault is On"* ]]; then
+    pass "FileVault is enabled"
+  else
+    warn "FileVault is not reported as enabled"
+  fi
+else
+  warn "FileVault status could not be checked"
+fi
+
+FIREWALL_TOOL="/usr/libexec/ApplicationFirewall/socketfilterfw"
+if [[ -x "$FIREWALL_TOOL" ]]; then
+  FIREWALL_STATUS="$($FIREWALL_TOOL --getglobalstate 2>/dev/null || true)"
+  if [[ "$FIREWALL_STATUS" == *"enabled"* ]]; then
+    pass "application firewall is enabled"
+  else
+    warn "application firewall is disabled"
+  fi
+
+  STEALTH_STATUS="$($FIREWALL_TOOL --getstealthmode 2>/dev/null || true)"
+  if [[ "$STEALTH_STATUS" == *"enabled"* ]]; then
+    pass "firewall stealth mode is enabled"
+  else
+    warn "firewall stealth mode is disabled"
+  fi
+else
+  warn "application firewall status could not be checked"
+fi
+
+REMOTE_LOGIN="$(systemsetup -getremotelogin 2>/dev/null || true)"
+if [[ "$REMOTE_LOGIN" == *"On"* ]]; then
+  pass "Remote Login is enabled"
+elif [[ "$REMOTE_LOGIN" == *"Off"* ]]; then
+  warn "Remote Login is disabled"
+else
+  warn "Remote Login status requires administrator access to check"
+fi
+
+heading "System updates"
+
+if $CHECK_NETWORK; then
+  UPDATE_OUTPUT="$(softwareupdate --list 2>&1 || true)"
+  if [[ "$UPDATE_OUTPUT" == *"No new software available"* ]]; then
+    pass "no macOS software updates are available"
+  elif [[ "$UPDATE_OUTPUT" == *"Software Update found"* || "$UPDATE_OUTPUT" == *"Label:"* ]]; then
+    warn "macOS software updates are available"
+  else
+    warn "macOS software update status could not be determined"
+  fi
+else
+  warn "macOS update check skipped (run: mac-audit --network)"
+fi
+
+heading "Summary"
+printf '%s passed, %s warnings, %s failures\n' "$PASS_COUNT" "$WARN_COUNT" "$FAIL_COUNT"
+printf 'Manual setup checklist: %s/MACOS_SETUP.md\n' "$(chezmoi source-path 2>/dev/null || printf 'chezmoi source')"
+
+# This command is an audit, not a provisioning gate. Findings are reported above
+# without causing bootstrap or interactive shell workflows to fail.
+exit 0
