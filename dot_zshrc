@@ -1,0 +1,8 @@
+source "$HOME/.config/zsh/omz.zsh"
+source "$HOME/.config/zsh/aliases.zsh"
+
+# Starship
+export STARSHIP_CONFIG=~/.config/starship/starship.toml
+if command -v starship >/dev/null 2>&1; then
+  eval "$(starship init zsh)"
+fi

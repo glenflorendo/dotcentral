@@ -1,0 +1,22 @@
+# PATH
+typeset -U path
+
+# 1Password
+export OP_ACCOUNT="${OP_ACCOUNT:-my.1password.com}"
+
+# Homebrew
+if [[ -x /opt/homebrew/bin/brew ]]; then
+  eval "$(/opt/homebrew/bin/brew shellenv)"
+elif [[ -x /usr/local/bin/brew ]]; then
+  eval "$(/usr/local/bin/brew shellenv)"
+fi
+
+# JetBrains Toolbox
+JETBRAINS_TOOLBOX_PATH="$HOME/Library/Application Support/JetBrains/Toolbox/scripts"
+if [[ -d "$JETBRAINS_TOOLBOX_PATH" ]]; then
+  path+=("$JETBRAINS_TOOLBOX_PATH")
+fi
+
+# Editor
+export EDITOR="nvim"
+export VISUAL="nvim"
