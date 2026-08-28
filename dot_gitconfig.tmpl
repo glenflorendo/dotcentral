@@ -1,0 +1,62 @@
+{{- $gitName := onepasswordRead "op://Private/Dotfiles/git_name" -}}
+{{- $gitEmail := onepasswordRead "op://Private/Dotfiles/git_email" -}}
+{{- $gitKeyItemID := onepasswordRead "op://Private/Dotfiles/Related Items/GitHub Personal Authentication and Signing Key" -}}
+{{- $gitKeyRef := printf "op://Private/%s/public_key" $gitKeyItemID -}}
+{{- $gitSigningKey := onepasswordRead $gitKeyRef -}}
+
+[user]
+  email = {{ $gitEmail }}
+  name = {{ $gitName }}
+  signingkey = {{ $gitSigningKey }}
+
+[alias]
+  lg = log --graph --decorate --date=relative --pretty=format:'%C(auto)%h (%G?)%d %s %C(black)%C(bold)%cr%C(reset)'
+  ln = "!GIT_PAGER=\"nl -v0 -w2 -s'  ' | less -RS\" git lg --first-parent"
+  stash-all = stash push --include-untracked
+  undo = reset --soft HEAD^
+
+[color]
+	ui = auto
+
+[commit]
+  gpgsign = true
+
+[core]
+  quotepath = false
+
+[fetch]
+  prune = true
+
+[gpg]
+	format = ssh
+
+[gpg "ssh"]
+	allowedSignersFile = ~/.ssh/allowed_signers
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+
+[init]
+	defaultBranch = main
+
+[merge]
+  conflictstyle = zdiff3
+  ff = only
+
+[pull]
+  rebase = true
+
+[push]
+	autoSetupRemote = true
+  followTags = true
+
+[rebase]
+  autoStash = true
+	autoSquash = true
+
+[rerere]
+  enabled = true
+
+[status]
+  showUntrackedFiles = all
+
+[tag]
+  gpgSign = true
