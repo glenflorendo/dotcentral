@@ -97,9 +97,10 @@ cask "steam"
 cask "sublime-text"
 cask "telegram"
 cask "the-unarchiver"
-cask "visual-studio-code"
+# cask "visual-studio-code"
 cask "warp"
 cask "whatsapp"
+cask "zed"
 cask "zoom"
 
 #	──────────────────────────────────────────────────
