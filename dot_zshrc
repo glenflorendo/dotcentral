@@ -1,6 +1,11 @@
 source "$HOME/.config/zsh/omz.zsh"
 source "$HOME/.config/zsh/aliases.zsh"
 
+# Mise
+if command -v mise >/dev/null 2>&1; then
+  eval "$(mise activate zsh)"
+fi
+
 # Starship
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
 if command -v starship >/dev/null 2>&1; then
