@@ -7,6 +7,25 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "autosave": "on_focus_change",
+  "multi_cursor_modifier": "cmd_or_ctrl",
+  "agent_ui_font_size": 14.0,
+  "ui_font_family": ".ZedSans",
+  "buffer_line_height": "standard",
+  "buffer_font_family": "JetBrainsMono Nerd Font Mono",
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Zed (Default)",
+    "dark": "Zed (Default)"
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+    "anthropic_retention": false
+  },
+  "cli_default_open_behavior": "new_window",
+  "default_open_behavior": "new_window",
+  "on_last_window_closed": "quit_app",
   "git_panel": {
     "dock": "left"
   },
@@ -25,11 +44,11 @@
   "project_panel": {
     "dock": "left"
   },
-  "ui_font_size": 16,
-  "buffer_font_size": 15,
+  "ui_font_size": 15.0,
+  "buffer_font_size": 13.0,
   "theme": {
-    "mode": "system",
-    "light": "One Light",
-    "dark": "One Dark",
+    "mode": "dark",
+    "light": "Ayu Light",
+    "dark": "Ayu Dark",
   },
 }
