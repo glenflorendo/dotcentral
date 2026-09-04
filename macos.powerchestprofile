@@ -1,11 +1,11 @@
 {
   "appVersion" : "1.0",
-  "createdAt" : "2026-08-30T09:53:48Z",
-  "id" : "67EEDBC6-6A2A-4CF5-A0B2-ED66B6AFB95A",
+  "createdAt" : "2026-09-04T02:35:27Z",
+  "id" : "3248E9B6-CF50-43DE-9750-1E960D193049",
   "kind" : "manual",
-  "name" : "Export @ 8\/30\/26, 2:53 AM",
+  "name" : "Export @ 9\/3\/26, 7:35 PM",
   "notes" : "Captured for profile export",
-  "osVersion" : "macOS 26.5.2",
+  "osVersion" : "macOS 26.6.2",
   "settingRecords" : [
     {
       "captureStatus" : "captured",
@@ -1101,7 +1101,7 @@
       "captureStatus" : "captured",
       "capturedValue" : {
         "type" : "string",
-        "value" : "c2:a7:db:45:28:23"
+        "value" : "d0:11:e5:c7:d5:a1"
       },
       "keyExistence" : "exists",
       "settingID" : "network.macAddressEthernet"
