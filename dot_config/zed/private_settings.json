@@ -7,6 +7,10 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "edit_predictions": {
+    "mode": "subtle",
+    "provider": "copilot"
+  },
   "autosave": "on_focus_change",
   "multi_cursor_modifier": "cmd_or_ctrl",
   "agent_ui_font_size": 14.0,
@@ -36,6 +40,12 @@
     "flexible": true
   },
   "agent": {
+    "default_model": {
+      "provider": "openai-subscribed",
+      "model": "gpt-5.6-sol",
+      "enable_thinking": true,
+      "effort": "low"
+    },
     "dock": "right",
     "sidebar_side": "right",
     "favorite_models": [],
