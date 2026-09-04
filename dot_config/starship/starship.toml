@@ -88,6 +88,17 @@ symbol = " "
 [git_commit]
 tag_symbol = '  '
 
+[git_state]
+format = '\([$state( $progress_current/$progress_total)]($style)\) '
+style = "bold yellow"
+rebase = "REBASING"
+merge = "MERGING"
+revert = "REVERTING"
+cherry_pick = "CHERRY-PICKING"
+bisect = "BISECTING"
+am = "APPLYING MAILBOX"
+am_or_rebase = "AM/REBASE"
+
 [golang]
 symbol = " "
 
