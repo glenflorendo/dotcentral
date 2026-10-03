@@ -1,9 +1,9 @@
 {
   "appVersion" : "1.0",
-  "createdAt" : "2026-09-06T00:49:48Z",
-  "id" : "228B2910-C232-4B98-93F0-2F560542DF6B",
+  "createdAt" : "2026-10-03T19:56:07Z",
+  "id" : "AAEAB1AB-9E4E-44DD-9401-7948B4B31ABD",
   "kind" : "manual",
-  "name" : "Export @ 9\/5\/26, 5:49 PM",
+  "name" : "Export @ 10\/3\/26, 12:56 PM",
   "notes" : "Captured for profile export",
   "osVersion" : "macOS 26.6.2",
   "settingRecords" : [
@@ -441,7 +441,7 @@
       "captureStatus" : "captured",
       "capturedValue" : {
         "type" : "int",
-        "value" : 2
+        "value" : 0
       },
       "keyExistence" : "exists",
       "settingID" : "dock.hotCornerTopLeft"
@@ -459,7 +459,7 @@
       "captureStatus" : "captured",
       "capturedValue" : {
         "type" : "int",
-        "value" : 0
+        "value" : 2
       },
       "keyExistence" : "exists",
       "settingID" : "dock.hotCornerBottomLeft"
@@ -698,7 +698,7 @@
       "captureStatus" : "captured",
       "capturedValue" : {
         "type" : "bool",
-        "value" : true
+        "value" : false
       },
       "keyExistence" : "exists",
       "settingID" : "windowManager.tilingByEdgeDrag"
@@ -707,7 +707,7 @@
       "captureStatus" : "captured",
       "capturedValue" : {
         "type" : "bool",
-        "value" : true
+        "value" : false
       },
       "keyExistence" : "exists",
       "settingID" : "windowManager.tilingOptionKey"
@@ -716,7 +716,7 @@
       "captureStatus" : "captured",
       "capturedValue" : {
         "type" : "bool",
-        "value" : true
+        "value" : false
       },
       "keyExistence" : "exists",
       "settingID" : "windowManager.topEdgeTiling"
