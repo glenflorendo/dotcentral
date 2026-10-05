@@ -1,6 +1,8 @@
 source "$HOME/.config/zsh/omz.zsh"
 source "$HOME/.config/zsh/aliases.zsh"
 
+export DOTCENTRAL_ROOT=$(chezmoi source-path)
+
 # Mise
 if command -v mise >/dev/null 2>&1; then
   eval "$(mise activate zsh)"
